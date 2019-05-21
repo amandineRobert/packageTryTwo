@@ -1,0 +1,19 @@
+Package: packageTry
+Title: A first package (trying to be clean)
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Amandine",
+           family = "Robert",
+           role = c("aut", "cre"),
+           email = "Amandine.Robert@liverpool.ac.uk",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: A fisrt simple package containing some basic function, such as add, divide, and some shiny app try
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.1.1
+Imports: 
+    dplyr
+Suggests: 
+    testthat (>= 2.1.0)
