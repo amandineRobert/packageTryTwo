@@ -3,7 +3,7 @@ library(shiny)
 library(quantmod)
 
 # Source helpers ----
-source("helpers.R")
+source("~/packageTry/R/helpers.R")
 
 # User interface ----
 ui <- fluidPage(
@@ -49,12 +49,12 @@ server <- function(input, output) {
     if(!input$adjust) return(dataInput())
     adjust(dataInput())
   })
-  
+
   output$plot <- renderPlot({
 
     chartSeries(finalInput(), theme = chartTheme("white"),
                 type = "line", log.scale = input$log, TA = NULL)
-    
+
   })
 
 }
