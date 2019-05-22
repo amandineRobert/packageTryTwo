@@ -23,5 +23,6 @@ NULL
 #' @export
 creator <- function(x, y) {
   if(!is.character(x) | !is.character(y)) stop("YOU NEED CHARACTERS")
+
   paste(x, y)
 }
