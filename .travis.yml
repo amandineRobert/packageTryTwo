@@ -1,4 +1,26 @@
 # R for travis: see documentation at https://docs.travis-ci.com/user/languages/r
 
-language: R
-cache: packages
+language: r
+dist: trusty
+# sudo: required
+cache: packages   # to rebuild cache see tweet thread ending here https://twitter.com/jimhester_/status/1115718589804421121
+warnings_are_errors: true
+
+branches:
+  only:
+    - "master"
+
+r:
+  - release
+
+r_packages:
+  - devtools  # explicitly named temp fix for #2801
+
+before_script:
+  - echo "Revision:" $TRAVIS_COMMIT >> ./DESCRIPTION
+
+notifications:
+  email:
+    on_success: change
+    on_failure: change
+
