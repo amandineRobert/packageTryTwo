@@ -1,5 +1,5 @@
-Package: packageTry
-Title: A first package (trying to be clean)
+Package: packageTry.
+Title: A first package (trying to be clean).
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Amandine",
@@ -7,7 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "Amandine.Robert@liverpool.ac.uk",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: A fisrt simple package containing some basic function, such as add, divide, and some shiny app try
+Description: A fisrt simple package containing some basic function, such as add, divide, and some shiny app try.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
