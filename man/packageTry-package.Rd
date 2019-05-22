@@ -7,11 +7,11 @@
 \alias{packageTry-package}
 \title{packageTry: A first package (trying to be clean)}
 \description{
-A fisrt simple package containing some basic function, such as add, divide, and some shiny app try
+A first simple package containing some basic function, such as add, divide, and some shiny app try.
 
-A fisrt simple package containing some basic function, such as add, divide, and some shiny app try
+A first simple package containing some basic function, such as add, divide, and some shiny app try.
 
-A fisrt simple package containing some basic function, such as add, divide, and some shiny app try
+A first simple package containing some basic function, such as add, divide, and some shiny app try.
 }
 \author{
 \strong{Maintainer}: Amandine Robert \email{Amandine.Robert@liverpool.ac.uk} (YOUR-ORCID-ID)
