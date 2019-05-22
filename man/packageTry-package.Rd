@@ -5,13 +5,13 @@
 \name{packageTry-package}
 \alias{packageTry}
 \alias{packageTry-package}
-\title{packageTry: A first package (trying to be clean)}
+\title{packageTry: A first package}
 \description{
-A first simple package containing some basic function, such as add, divide, and some shiny app try.
+A first simple package containing some basic functions, such as add, divide, and a shiny app try.
 
-A first simple package containing some basic function, such as add, divide, and some shiny app try.
+A first simple package containing some basic functions, such as add, divide, and a shiny app try.
 
-A first simple package containing some basic function, such as add, divide, and some shiny app try.
+A first simple package containing some basic functions, such as add, divide, and a shiny app try.
 }
 \author{
 \strong{Maintainer}: Amandine Robert \email{Amandine.Robert@liverpool.ac.uk} (YOUR-ORCID-ID)
