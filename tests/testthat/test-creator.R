@@ -6,7 +6,7 @@ source("~/packageTry/R/creator.R")
 
 test_that("Concatenation of words works", {
 
-  sentence <- creator("Hello", "World", ignore.case = TRUE)
+  sentence <- creator("Hello", "World")
 
   expect_equal( sentence, "Hello World" )
   expect_equal( is.character(sentence), TRUE )
