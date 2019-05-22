@@ -1,5 +1,5 @@
-Package: packageTry.
-Title: A first package (trying to be clean).
+Package: packageTry
+Title: A first package (trying to be clean)
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Amandine",
