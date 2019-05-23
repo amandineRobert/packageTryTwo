@@ -1,8 +1,6 @@
-library(testthat)
-
-
 context("number addition")
-source("~/packageTry/R/packageTry.R")
+library(testthat)
+#source("~/packageTry/R/packageTry.R")
 
 
 test_that("Addition works", {

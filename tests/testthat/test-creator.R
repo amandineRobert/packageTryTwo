@@ -1,7 +1,7 @@
 library(testthat)
 
 context("create words group")
-source("~/packageTry/R/creator.R")
+#source("~/packageTry/R/creator.R")
 
 
 test_that("Concatenation of words works", {
