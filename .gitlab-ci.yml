@@ -23,8 +23,8 @@ testing:
     only:
         - master
     script:
-        - Rscript -e 'install.packages("devtools")'
-        - Rscript -e 'install.packages("remotes")'
+        - Rscript -e 'install.packages("devtools", repos=file.path("file:",normalizePath("bus/mirror-packages/cran")))'
+        - Rscript -e 'install.packages("remotes", repos=file.path("file:",normalizePath("bus/mirror-packages/cran")))'
        # - Rscript -e 'cc <- covr::package_coverage; covr::gitlab(coverage = cc); cat("Code coverage:", paste0(format(covr::percent_coverage(cc), nsmall = 1),"%"))'
     artifacts:
         paths:
