@@ -40,13 +40,10 @@ pages:
     dependencies:
         - testing
     script:
-    #- ls
-        - mkdir newPublicFolder
-        - mv newPublicFolder
+        - ls
     artifacts:
         paths:
-        - newPublicFolder
-        #- public
+        - public
         #expire_in: 30 days
     only:
         - master
