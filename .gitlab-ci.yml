@@ -48,7 +48,9 @@ pages:
     dependencies:
         - testing
     script:
-        - ls
+        - mkdir .public
+        - cp -r * .public
+        -mv .public public
     artifacts:
         paths:
         - public
