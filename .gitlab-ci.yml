@@ -6,7 +6,7 @@ stages:
   - test
   - deploy
 
-build:
+building:
   stage: build
   tags:
   - windows
