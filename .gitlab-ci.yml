@@ -1,15 +1,12 @@
-image: r-base
+image: rocker/tidyverse
 
 stages:
-  - dependencies
   - build
   - test
   - deploy
 
 building:
   stage: build
-  tags:
-  - windows
   script:
     - R -e 'remotes::install_deps(dependencies = T)'
     - R -e 'devtools::check()'
