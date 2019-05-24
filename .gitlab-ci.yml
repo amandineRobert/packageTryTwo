@@ -42,7 +42,7 @@ pages:
     script:
     #- ls
         - mkdir newPublicFolder
-        - mv public/ newPublicFolder
+        - mv public/newPublicFolder
     artifacts:
         paths:
         - newPublicFolder
