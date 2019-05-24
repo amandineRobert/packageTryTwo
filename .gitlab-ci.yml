@@ -14,7 +14,7 @@ building:
 buildbinary:
   stage: build
   script:
-    - r -e 'devtools::build(binary = TRUE)'
+    - Rscript -e 'devtools::build(binary = TRUE)'
 
 # To have the converage percentge appear as a gitlab badge follow these instructions
 # https://docs.gitlab.com/ee/user/project/pipelines/settings.html#test-coverage-parsing
@@ -32,18 +32,14 @@ testing:
      #, repos=file.path("file:",normalizePath("bus/mirror-packages/cran")))'
      - Rscript -e 'install.packages("remotes")'
      #, repos=file.path("file:",normalizePath("bus/mirror-packages/cran")))'
-     - Rscript -e 'cc <- covr::package_coverage; covr::gitlab(coverage = cc); cat("Code coverage:", paste0(format(covr::percent_coverage(cc), nsmall = 1),"%"))'
+    # - Rscript -e 'cc <- covr::package_coverage; covr::gitlab(coverage = cc); cat("Code coverage:", paste0(format(covr::percent_coverage(cc), nsmall = 1),"%"))'
     artifacts:
         paths:
             - public
 unittests:
   stage: test
   script:
-    - r -e 'if (any(as.data.frame(devtools::test())[["failed"]] > 0)) stop("Some tests failed.")'
-codecov:
-  stage: test
-  script:
-    - r -e 'covr::codecov()'
+    - Rscript -e 'if (any(as.data.frame(devtools::test())[["failed"]] > 0)) stop("Some tests failed.")'
 # To produce a code coverage report as a GitLab page see
 # https://about.gitlab.com/2016/11/03/publish-code-coverage-report-with-gitlab-pages/
 
@@ -63,4 +59,4 @@ pages:
 install:
   stage: deploy
   script:
-    - r -e 'devtools::install()'
+    - Rscript -e 'devtools::install()'
