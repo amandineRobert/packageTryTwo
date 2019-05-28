@@ -15,7 +15,6 @@ RUN gdebi -n shiny-server-1.4.7.815-amd64.deb
 EXPOSE 3838
 
 RUN mkdir /etc/services.d/shiny-server
-COPY shiny-server.sh /etc/services.d/shiny-server/run
-RUN chmod 755 /etc/services.d/shiny-server/run
+
 
 CMD ["/init"]
