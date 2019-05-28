@@ -1,6 +1,6 @@
-FROM rocker/package-try-two:latest
+FROM rocker/tidyverse:latest
 
-MAINTAINER amandineRobert  "Amandine.Robert@liverpool.ac.uk"
+
 
 RUN apt-get update && \
     apt-get install -y gdebi-core
