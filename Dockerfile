@@ -1,4 +1,4 @@
-FROM rocker/hadleyverse:latest
+FROM rocker/package-try-two:latest
 
 MAINTAINER amandineRobert  "Amandine.Robert@liverpool.ac.uk"
 
