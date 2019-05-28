@@ -1,5 +1,5 @@
 library(shiny)
-source("./packageTry.R")
+#source("./packageTry.R")
 ui <- fluidPage(
   h1("1st Shiny app"),
   flowLayout(
