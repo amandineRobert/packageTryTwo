@@ -14,7 +14,7 @@ LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 6.1.1
 Imports: 
-    data.table
+    data.table, shiny
 Suggests: 
     testthat (>= 2.1.0)
     
