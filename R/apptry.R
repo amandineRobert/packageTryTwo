@@ -7,7 +7,7 @@
 ## usethis namespace: end
 NULL
 
-install.packages("shiny")
+# install.packages("shiny")
 library(shiny)
 #source("./packageTry.R")
 
