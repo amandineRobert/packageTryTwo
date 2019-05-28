@@ -1,6 +1,6 @@
 FROM rocker/hadleyverse:latest
 
-MAINTAINER Amandine Robert "Amandine.Robert@liverpool.ac.uk"
+MAINTAINER amandineRobert  "Amandine.Robert@liverpool.ac.uk"
 
 RUN apt-get update && \
     apt-get install -y gdebi-core
