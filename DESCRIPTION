@@ -16,6 +16,6 @@ RoxygenNote: 6.1.1
 Imports: 
     data.table
 Suggests: 
-    testthat
-    shiny
+    testthat (>= 2.1.0)
+    
     
