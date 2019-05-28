@@ -1,23 +1,7 @@
-#' @keywords internal
-"_PACKAGE"
-
-# The following block is used by usethis to automatically manage
-# roxygen namespace tags. Modify with care!
-## usethis namespace: start
-## usethis namespace: end
-NULL
-
-# install.packages("shiny")
+#install.packages("shiny")
 library(shiny)
 #source("./packageTry.R")
 
-# apptry.R
-#' A simple shiny app which use the function addme to add two numbers thanks to a UI
-#'
-#' @param ui ('ui') The modeler of the user interface
-#' @param server ('server') The output part
-#' @return A simple app thanks to which the user can add two numbers manualy
-#' @export
 
 ui <- fluidPage(
   h1("1st Shiny app"),
