@@ -1,7 +1,7 @@
 FROM r-base
 
-COPY . ~/packageTry/R
+COPY . ~/packageTry/R/mydocker
 
-WORKDIR ~/packageTry/R
+WORKDIR ~/packageTry/R/mydocker
 
 CMD ["Rscript", "myscript.R"]
