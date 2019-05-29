@@ -18,7 +18,7 @@ knitr::opts_chunk$set(
 [![Travis build status](https://travis-ci.org/amandineRobert/packageTryTwo.svg?branch=master)](https://travis-ci.org/amandineRobert/packageTryTwo)
 <!-- badges: end -->
 
-The goal of packageTry is to ...
+The goal of packageTry is to train a beginner with RStudio, thanks to basic functions
 
 ## Installation
 
@@ -27,6 +27,14 @@ You can install the released version of packageTry from [CRAN](https://CRAN.R-pr
 ``` r
 install.packages("packageTry")
 ```
+
+
+You can install the package from GitLab.
+
+```{r, eval = FALSE}
+devtools::install_git("https://gitlab.com/AmandineR/packageTryTwo")
+```
+
 
 And the development version from [GitHub](https://github.com/) with:
 https://github.com/amandineRobert/packageTryTwo.git

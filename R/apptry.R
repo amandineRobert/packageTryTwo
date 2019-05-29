@@ -1,6 +1,26 @@
-#install.packages("shiny")
-library(shiny)
+library("shiny")
+#' @keywords internal
+"_PACKAGE"
+
+# The following block is used by usethis to automatically manage
+# roxygen namespace tags. Modify with care!
+## usethis namespace: start
+## usethis namespace: end
+NULL
+#(`fluidPage`)
+#  apptry.R
+#' A simple shiny app that adds 2 two number thnaks to a user interface.
+#' @aliases apptry
+#' @name apptry
+#' @import shiny
+#'
+#'
+#'
+#' @return (`shinyApp`) The web page on which the app is run.
+#'
 #source("./packageTry.R")
+
+#' @export
 
 
 ui <- fluidPage(

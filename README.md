@@ -21,6 +21,12 @@ You can install the released version of packageTry from
 install.packages("packageTry")
 ```
 
+You can install the package from GitLab.
+
+``` r
+devtools::install_git("https://gitlab.com/AmandineR/packageTryTwo")
+```
+
 And the development version from [GitHub](https://github.com/) with:
 <https://github.com/amandineRobert/packageTryTwo.git>
 
