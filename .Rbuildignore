@@ -4,4 +4,4 @@
 ^README\.Rmd$
 ^\.gitlab-ci\.yml$
 ^\.travis\.yml$
-
+^Dockerfile
