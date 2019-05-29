@@ -1,12 +1,7 @@
-FROM rocker/r-ver:3.6.0
+FROM r-base
 
-ARG WHEN
+COPY . ~/packageTry/R
 
-RUN mkdir ~/packageTry/analysis
+WORKDIR ~/packageTry/R
 
-RUN Rscript -e "install.packages('data.table', dependencies=TRUE, repos='http://cran.rstudio.com/')"
-
-
-COPY packageTry.R /home/packageTry/analysis/packageTry.R
-
-CMD R -e "source('/home/packageTry/analysis/packageTry.R')"
+CMD ["Rscript", "myscript.R"]
