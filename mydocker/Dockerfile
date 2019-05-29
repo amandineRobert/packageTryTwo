@@ -1,4 +1,4 @@
-FROM rocker/r-ver:3.6.0
+FROM rocker/tidyverse
 
 ARG WHEN
 
